@@ -1,0 +1,6 @@
+Load authorization file
+Configure the php. ini file to load authorization files by setting swoole_ loader. license files.
+
+[swoole_loader]
+extension=swoole_loader.so
+swoole_loader.license_files=/yourpath/licenseA,/yourpath/licenseB
